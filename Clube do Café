@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+icon">
+    <title>Clube do Café</title>
+    <link rel="stylesheet" href="cafeteria.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="img-principal">
+        <a href="#">
+          <img src="image/logo.png" alt="logo" />
+        </a>
+        
+        <button id="btn-menu" class="btn-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+          <nav class="navbar" id="menu">
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Avaliações</a>
+            <a href="#address">Endereço</a>
+
+            <div id="icons">
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png"
+                alt="search--v1"
+              />
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart--v1.png"
+                alt="shopping-cart--v1"
+              />
+            </div>
+
+          </nav>
+          <div class="icons">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png"
+              alt="search--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart--v1.png"
+              alt="shopping-cart--v1"
+            />
+          </div>
+      </section>
+    </header>
+
+    <div class="home-container">
+      <section id="#home">
+        <div class="home-content">
+          <h3>O MELHOR CAFÉ DA REGIÃO</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            quibusdam sed mollitia autem ratione voluptates facilis magnam. Nam
+            iusto doloribus reiciendis unde quidem temporibus, dolorem animi
+            accusantium alias obcaecati non?
+            
+          </p>
+          <a href="#" class="btn">Pegue o seu Agora</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="about" id="about">
+      <h2 class="title-about-us">Sobre <span>Nós</span></h2>
+      <div class="row">
+        <img class="cafe-preto" src="image/cafe.jpg" alt="cafe derramando" />
+        <div class="content">
+          <h3>O Que Faz Nosso Café Ser Especial</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+            temporibus quod obcaecati voluptas maxime sed, sint fuga quae
+            numquam excepturi praesentium illum beatae quas, aliquam dolorem
+            similique dolor dicta deserunt?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste omnis
+            nulla ducimus maxime inventore magnam illum minus obcaecati. Amet
+            optio dolorem doloribus nam magnam molestiae, reprehenderit
+            blanditiis enim ullam atque!
+          </p>
+          <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h2 class="title-menu">Nosso <span>Menu</span></h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/foto-xicara.png" alt="item1" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 16,99 <span>R$ 20,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="image/foto-xicara1.png" alt="item2" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 10,00 <span>R$ 20,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="image/foto-xicara2.png" alt="item3" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 11,20 <span>R$ 13,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="image/foto-xicara3.png" alt="item4" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 14,35 <span>R$ 16,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="image/foto-xicara4.png" alt="item5" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 13,00 <span>R$ 16,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+      <h2 class="title-clientes"> Nossos <span>Clientes</span></h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/aspas-img.png" alt="comentario">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi vero dolorem vitae sit, ea beatae aspernatur nihil doloribus minima dolore temporibus doloremque officia voluptates tempore nam quas dignissimos pariatur.</p>
+
+          <img src="image/foto-homem.png" alt="foto-cliente" class="user">
+
+          <h3>João da Silva</h3>
+          
+          <div class="stars">
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star--v1">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star--v1">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star--v1">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star--v1">
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/aspas-img.png" alt="comentario">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi vero dolorem vitae sit, ea beatae aspernatur nihil doloribus minima dolore temporibus doloremque officia voluptates tempore nam quas dignissimos pariatur.</p>
+
+          <img src="image/foto-homem2.png" alt="foto-cliente" class="user">
+
+          <h3>Clark da Silva</h3>
+          
+          <div class="stars">
+            <img width="10" height="10" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/aspas-img.png" alt="comentario">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi vero dolorem vitae sit, ea beatae aspernatur nihil doloribus minima dolore temporibus doloremque officia voluptates tempore nam quas dignissimos pariatur.</p>
+
+          <img src="image/foto-mulher.png" alt="foto-cliente" class="user">
+
+          <h3>Diana da Silva</h3>
+          
+          <div class="stars">
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/80/ffffff/star--v1.png"
+            alt="star-half-empty">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="address">
+      <h2 class="title-address">Nosso <span>Endereço</span></h2>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.9830875558664!2d-43.94083532586165!3d-19.882936036842565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69b075c915f43%3A0xb1659371da72676d!2sCafeteria%20Torre%20EIffel!5e0!3m2!1spt-BR!2sbr!4v1731005086156!5m2!1spt-BR!2sbr" width="350" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+      <section class="footer">
+        <div class="share">
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/facebook-new.png" alt="facebook-new"/>
+          <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/twitter.png" alt="twitter"/>
+        </div>
+      </section>
+
+      
+      <script src="script.js"></script>
+  </body>
+</html>
+
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  font-size: 0.6rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+section {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  border-bottom: var(--border);
+  background-color: var(--bg);
+}
+
+.header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  width: 100%;
+}
+
+.img-principal {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Botão do menu hambúrguer */
+.btn-menu {
+  display: none; /* Oculta o botão por padrão */
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.btn-menu .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+/* Menu de navegação */
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--main-color);
+  border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
+}
+
+/* Ícones de pesquisa e carrinho */
+.icons {
+  display: hidden;
+  gap: 1rem;
+}
+
+.icons img {
+  cursor: pointer;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  background: var(--main-color);
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin: 1rem 1rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  letter-spacing: 0.1rem;
+}
+
+.title-menu {
+  font-size: 3.7rem;
+  color: var(--main-color);
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.home-container {
+  max-width: 100%;
+  background: url("./image/xicara\ com\ cafe.jpg");
+  height: 140vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+#home {
+  padding-top: 8rem;
+}
+
+.home-container section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-content {
+  font-size: 1.7rem;
+  color: #fff;
+  font-weight: 100;
+  line-height: 1.9;
+  margin: 3rem 0 0 0;
+  padding: 0 4rem;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.content h3 {
+  color: #fff;
+  font-size: 2.7rem;
+  margin-left: 1rem;
+}
+
+.content p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.8;
+  padding: 1rem;
+}
+
+.title-about-us {
+  font-size: 3.7rem;
+  color: var(--main-color);
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.title span {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex; /* Alinha imagem e texto lado a lado */
+  flex-wrap: wrap; /* Permite quebra para telas menores */
+  align-items: flex-start; /* Alinha os elementos no topo */
+  gap: 2rem; /* Espaço entre imagem e texto */
+  background-color: var(--black);
+  margin: 0 auto;
+  padding: 2rem;
+  width: 83rem;
+  box-sizing: border-box;
+}
+
+.cafe-preto {
+  flex: 1;
+  max-width: 100%;
+  min-width: 200px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.content {
+  flex: 1; /* Faz o texto ocupar espaço proporcional */
+  min-width: 200px;
+  max-width: 600px;
+  margin: 3rem 0 0 0;
+  padding: 0 4rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 1.9;
+}
+
+.content .btn-saiba-mais {
+  padding: 0.7rem 1.5rem;
+  background-color: #ff6f61;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1.6rem;
+  height: 3.5rem;
+  margin: 1rem 1.1rem;
+  width: 14rem;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  cursor: pointer;
+  max-width: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.menu .box-container .box {
+  text-align: center;
+  border: var(--border);
+  padding: 5rem;
+  cursor: pointer;
+}
+
+.menu .box-container .box img {
+  height: 10rem;
+}
+
+.menu .box-container .box h3 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1 rem 0;
+}
+
+.menu .box-container .box .price {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.menu .box-container .box:hover {
+  background-color: #fff;
+}
+
+.menu .box-container .box:hover > * {
+  color: var(--black);
+}
+
+.review .box-container .box {
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+  margin-top: 2rem;
+}
+
+.title-clientes {
+  font-size: 3.7rem;
+  color: var(--main-color);
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.review .box-container .box p {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 2rem 0;
+  line-height: 1.8;
+  font-weight: lighter;
+}
+
+.review .box-container .box h3 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.review .box-container .box .user {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.review .box-container .box img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.title-address {
+  font-size: 3.7rem;
+  color: var(--main-color);
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer .share {
+  margin-top: 6rem;
+  filter: invert(1);
+}
+
+.footer .share img {
+  margin: 0.3rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1 rem;
+}
+
+.footer .share img:hover {
+  height: 5rem;
+  width: 5rem;
+  background-color: var(--main-color);
+}
+
+@media (max-width: 1286px) and (min-width: 1110px) {
+  .row {
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 83rem;
+  }
+
+  .box-container {
+    background-size: contain;
+    aspect-ratio: 4 / 1;
+    margin-left: 18.5rem;
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+
+  .title-menu {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .btn-menu {
+    display: flex; /* Mostra o botão do menu hambúrguer */
+    padding-right: 3rem;
+  }
+
+  .navbar {
+    display: none; /* Oculta o menu por padrão */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg);
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar.active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  .navbar .menu {
+    display: none;
+  }
+
+  #icons {
+    display: flex;
+  }
+  .icons {
+    display: none;
+  }
+}
+
+@media (min-width: 750px) {
+  #icons {
+    display: none;
+  }
+}
+
+/* Telas médias - Tablets (até 866px) */
+@media (max-width: 866px) {
+  .img-principal {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 57rem;
+    margin: 0 auto;
+  }
+
+  .cafe-preto,
+  .content {
+    max-width: 100%;
+    flex: none;
+    padding: 0 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .cafe-preto {
+    margin: 2rem auto;
+  }
+
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 3;
+    margin-top: 14rem;
+    max-width: 103%;
+  }
+
+  .content h3 {
+    margin-bottom: 2rem;
+    line-height: 3rem;
+  }
+
+  .content .btn {
+    width: fit-content;
+    margin: auto 1rem 0;
+  }
+
+  .title-about-us {
+    margin: 3rem auto;
+  }
+
+  .title-menu {
+    margin-left: 2rem;
+    font-size: 3.2rem; /* Aumenta a especificidade */
+  }
+
+  .title-clientes {
+    margin-left: 4rem;
+  }
+
+  .title-address {
+    margin: 5rem 0 4rem 0;
+  }
+
+  .footer .share {
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  .box-container {
+    margin-left: 11rem;
+  }
+}
+
+/* Telas pequenas - Smartphones (490px a 590px) */
+@media (min-width: 490px) and (max-width: 590px) {
+  .row {
+    margin-left: 10rem;
+    max-width: 100%;
+    width: 80%;
+  }
+
+  .title-menu {
+    margin-left: 7rem;
+  }
+
+  .content h3 {
+    font-size: 2.5rem;
+  }
+
+  .menu .title {
+    margin: 5rem 0 0 0;
+  }
+
+  .title-about-us {
+    margin-left: 9rem;
+  }
+
+  .icons {
+    padding-left: 2rem;
+  }
+
+  .box-container {
+    margin-left: 13rem;
+  }
+
+  .title-clientes {
+    margin-left: 9rem;
+  }
+
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 1;
+    margin-top: 14rem;
+    max-width: 114%;
+  }
+
+  .title-address {
+    margin-left: 6rem;
+  }
+
+  .footer .share {
+    margin-left: 4%;
+  }
+
+  iframe {
+    margin-left: 6rem;
+  }
+}
+
+/* Smartphones menores (365px a 490px) */
+@media (min-width: 367px) and (max-width: 490px) {
+  .row {
+    margin: 3rem 5rem;
+    width: 43rem;
+    max-width: 100%;
+  }
+
+  .content h3 {
+    font-size: 1.8rem;
+  }
+
+  .title-about-us {
+    text-align: center;
+    margin-left: 9rem;
+  }
+
+  .title-menu {
+    margin-left: 8rem;
+  }
+
+  .box-container {
+    margin-left: 11rem;
+    width: 32rem;
+  }
+
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 1;
+    margin-top: 14rem;
+    max-width: 120%;
+  }
+
+  .menu .title h2 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .title-clientes {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-left: 10rem;
+  }
+
+  .title-address {
+    margin-left: 11rem;
+    font-size: 3.2rem;
+  }
+
+  .footer .share {
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+
+  iframe {
+    margin-left: 3rem;
+  }
+}
+
+/* Smartphones menores (até 365px) */
+@media (min-width: 330px) and (max-width: 440px) {
+  .row {
+    margin-left: 8rem;
+    max-width: 100%;
+    width: 335px;
+  }
+
+  .cafe-preto,
+  .content {
+    padding-left: 4rem;
+  }
+
+  .content h3 {
+    font-size: 1.8rem;
+  }
+
+  .about .title,
+  .menu .title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .title-menu {
+    margin-left: 13rem;
+    font-size: 3rem;
+    margin-top: 7rem;
+    height: 5rem;
+  }
+
+  .box-container {
+    margin: 0 11rem;
+    width: 77%;
+  }
+
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 1;
+    margin-top: 14rem;
+    max-width: 51rem;
+  }
+
+  .title-clientes {
+    margin-left: 12rem;
+    font-size: 3rem;
+  }
+
+  .title-address {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-left: 14rem;
+  }
+
+  .title-address span {
+    margin-left: 1rem;
+  }
+
+  .title-about-us {
+    margin-left: 13rem;
+    font-size: 3rem;
+  }
+
+  .footer .share {
+    margin-left: 13rem;
+  }
+
+  iframe {
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .row {
+    margin-left: 4.5rem;
+    width: 35rem;
+  }
+
+  .cafe-preto,
+  .content {
+    padding-left: 4rem;
+  }
+
+  .home-content {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 100;
+    line-height: 1.9;
+    margin: 3rem 0 0 1rem;
+    padding: 0 2rem;
+    min-width: 200px;
+    width: 45rem;
+    max-width: 600px;
+  }
+
+  .content p {
+    width: 19rem;
+  }
+
+  .title-menu {
+    display: flex;
+    margin-left: 13rem;
+  }
+
+  .title-menu span {
+    margin-left: 1rem;
+  }
+
+  .title-about-us {
+    display: flex;
+    margin-left: 15rem;
+  }
+
+  .title-about-us span {
+    margin-left: 1rem;
+  }
+
+  .box-container {
+    background-size: contain;
+    margin-left: 7.3rem;
+  }
+
+  .title-clientes {
+    display: flex;
+    margin-left: 8.5rem;
+  }
+
+  .title-clientes span {
+    margin-left: 1rem;
+  }
+
+  .footer .share {
+    margin-left: 16rem;
+  }
+
+  .title-address {
+    display: flex;
+    margin-left: 13rem;
+  }
+
+  .title-address span {
+    margin-left: 1rem;
+  }
+
+  iframe {
+    margin-left: 13rem;
+  }
+}
+
+@media (max-width: 329px) {
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 1;
+    margin-top: 14rem;
+    max-width: 140%;
+  }
+}
+
+@media (max-width: 280px) {
+  .row {
+    margin-left: 3rem;
+    width: 29rem;
+  }
+
+  .cafe-preto,
+  .content {
+    padding-left: 5rem;
+    width: 35rem;
+  }
+
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 1;
+    margin-top: 14rem;
+    width: 34rem;
+  }
+
+  .home-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 3rem;
+    font-size: 1.3em;
+    width: 25rem;
+  }
+
+  .title-about-us {
+    margin-left: 9rem;
+  }
+
+  .title-clientes {
+    display: flex;
+    margin-left: 5.5rem;
+  }
+
+  .box-container {
+    background-size: contain;
+    margin-left: 4rem;
+    width: 30rem;
+  }
+
+  .title-menu {
+    display: flex;
+    margin-left: 9rem;
+  }
+
+  .title-menu span {
+    margin-left: 1rem;
+  }
+
+  .title-address {
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-left: 12rem;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM carregado!');
+    const btnmenu = document.getElementById("btn-menu");
+    const navbar = document.getElementById("menu");
+
+    if (btnmenu && navbar) {
+        btnmenu.addEventListener("click", () => {
+            console.log("Botão clicado!");
+            navbar.classList.toggle("active");
+            btnmenu.classList.toggle("active");
+        });
+    } else {
+        console.error("Erro: Elementos não encontrados no DOM.");
+    }
+})
+
