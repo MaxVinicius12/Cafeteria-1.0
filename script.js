@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM carregado!');
     const btnmenu = document.getElementById("btn-menu");
-    const navbar = document.getElementById("navbar");
+    const navbar = document.getElementById("menu");
 
     if (btnmenu && navbar) {
         btnmenu.addEventListener("click", () => {
@@ -13,3 +13,4 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Erro: Elementos não encontrados no DOM.");
     }
 })
+

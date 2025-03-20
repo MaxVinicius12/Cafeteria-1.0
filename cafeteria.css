@@ -22,7 +22,7 @@ body {
 }
 
 section {
-  max-width: 1200%;
+  max-width: 100%;
 }
 
 .header {
@@ -66,7 +66,6 @@ section {
   background-color: #fff;
   transition: all 0.3s ease-in-out;
 }
-
 /* Menu de navegação */
 .navbar {
   display: flex;
@@ -87,7 +86,7 @@ section {
 
 /* Ícones de pesquisa e carrinho */
 .icons {
-  display: none;
+  display: hidden;
   gap: 1rem;
 }
 
@@ -275,6 +274,7 @@ section {
   border: var(--border);
   text-align: center;
   padding: 3rem 2rem;
+  margin-top: 2rem;
 }
 
 .title-clientes {
@@ -320,6 +320,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 6rem;
 }
 
 .footer {
@@ -353,10 +354,10 @@ section {
 
   .box-container {
     background-size: contain;
-    background-image: url("./image/xicara\ com\ cafe.jpg");
-    height: 105vh;
     aspect-ratio: 4 / 1;
     margin-left: 18.5rem;
+    background-repeat: no-repeat;
+    object-fit: contain;
   }
 
   .title-menu {
@@ -367,6 +368,7 @@ section {
 @media (max-width: 750px) {
   .btn-menu {
     display: flex; /* Mostra o botão do menu hambúrguer */
+    padding-right: 3rem;
   }
 
   .navbar {
@@ -382,8 +384,27 @@ section {
   }
 
   .navbar.active {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  .navbar .menu {
+    display: none;
+  }
+
+  #icons {
+    display: flex;
+  }
+  .icons {
+    display: none;
+  }
+}
+
+@media (min-width: 750px) {
+  #icons {
+    display: none;
   }
 }
 
@@ -457,22 +478,22 @@ section {
   }
 }
 
-@media (max-width: 750px) {
-  .navbar .menu {
-    display: none;
+@media (min-width: 600px) and (max-width: 699px) {
+  .box-container {
+    margin-left: 11rem;
   }
 }
 
 /* Telas pequenas - Smartphones (490px a 590px) */
 @media (min-width: 490px) and (max-width: 590px) {
   .row {
-    margin-left: 8.1rem;
+    margin-left: 10rem;
     max-width: 100%;
     width: 80%;
   }
 
   .title-menu {
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
 
   .content h3 {
@@ -483,12 +504,20 @@ section {
     margin: 5rem 0 0 0;
   }
 
+  .title-about-us {
+    margin-left: 9rem;
+  }
+
+  .icons {
+    padding-left: 2rem;
+  }
+
   .box-container {
-    margin-left: 11rem;
+    margin-left: 13rem;
   }
 
   .title-clientes {
-    margin-left: 6rem;
+    margin-left: 9rem;
   }
 
   .home-container {
@@ -507,19 +536,17 @@ section {
   .footer .share {
     margin-left: 4%;
   }
-}
 
-@media (min-width: 412px) and (max-width: 390px) {
-  .row {
-    margin-left: 2rem;
+  iframe {
+    margin-left: 6rem;
   }
 }
 
 /* Smartphones menores (365px a 490px) */
-@media (min-width: 365px) and (max-width: 490px) {
+@media (min-width: 367px) and (max-width: 490px) {
   .row {
-    margin: 3rem 6.5rem;
-    width: 90%;
+    margin: 3rem 5rem;
+    width: 43rem;
     max-width: 100%;
   }
 
@@ -533,12 +560,12 @@ section {
   }
 
   .title-menu {
-    margin-left: 11rem;
+    margin-left: 8rem;
   }
 
   .box-container {
-    margin-left: 19%;
-    width: 36rem;
+    margin-left: 11rem;
+    width: 32rem;
   }
 
   .home-container {
@@ -570,12 +597,16 @@ section {
     margin-top: 5rem;
     margin-left: 8rem;
   }
+
+  iframe {
+    margin-left: 3rem;
+  }
 }
 
 /* Smartphones menores (até 365px) */
-@media (max-width: 367px) {
+@media (min-width: 330px) and (max-width: 440px) {
   .row {
-    margin-left: 15%;
+    margin-left: 8rem;
     max-width: 100%;
     width: 335px;
   }
@@ -596,12 +627,14 @@ section {
   }
 
   .title-menu {
-    margin-left: 28%;
+    margin-left: 13rem;
     font-size: 3rem;
+    margin-top: 7rem;
+    height: 5rem;
   }
 
   .box-container {
-    margin: 0 10rem;
+    margin: 0 11rem;
     width: 77%;
   }
 
@@ -611,7 +644,7 @@ section {
     height: 105vh;
     aspect-ratio: 4 / 1;
     margin-top: 14rem;
-    max-width: 140%;
+    max-width: 51rem;
   }
 
   .title-clientes {
@@ -620,24 +653,34 @@ section {
   }
 
   .title-address {
+    display: flex;
     font-size: 3rem;
     margin-top: 5rem;
     margin-left: 14rem;
   }
 
+  .title-address span {
+    margin-left: 1rem;
+  }
+
   .title-about-us {
-    margin-left: 11rem;
+    margin-left: 13rem;
     font-size: 3rem;
   }
 
   .footer .share {
     margin-left: 13rem;
   }
+
+  iframe {
+    margin-left: 15rem;
+  }
 }
 
 @media (max-width: 340px) {
   .row {
-    margin-left: 9rem;
+    margin-left: 4.5rem;
+    width: 35rem;
   }
 
   .cafe-preto,
@@ -650,8 +693,8 @@ section {
     color: #fff;
     font-weight: 100;
     line-height: 1.9;
-    margin: 3rem 0 0 0;
-    padding: 0 4rem;
+    margin: 3rem 0 0 1rem;
+    padding: 0 2rem;
     min-width: 200px;
     width: 45rem;
     max-width: 600px;
@@ -662,30 +705,70 @@ section {
   }
 
   .title-menu {
-    margin-left: 54%;
+    display: flex;
+    margin-left: 13rem;
+  }
+
+  .title-menu span {
+    margin-left: 1rem;
   }
 
   .title-about-us {
-    margin-left: 14rem;
+    display: flex;
+    margin-left: 15rem;
+  }
+
+  .title-about-us span {
+    margin-left: 1rem;
   }
 
   .box-container {
     background-size: contain;
-    margin-left: 9.3rem;
+    margin-left: 7.3rem;
   }
 
   .title-clientes {
-    margin-left: 15rem;
+    display: flex;
+    margin-left: 8.5rem;
+  }
+
+  .title-clientes span {
+    margin-left: 1rem;
   }
 
   .footer .share {
     margin-left: 16rem;
   }
+
+  .title-address {
+    display: flex;
+    margin-left: 13rem;
+  }
+
+  .title-address span {
+    margin-left: 1rem;
+  }
+
+  iframe {
+    margin-left: 13rem;
+  }
 }
 
-@media (max-width: 275px) {
+@media (max-width: 329px) {
+  .home-container {
+    background-size: contain;
+    background-image: url("./image/xicara\ com\ cafe.jpg");
+    height: 105vh;
+    aspect-ratio: 4 / 1;
+    margin-top: 14rem;
+    max-width: 140%;
+  }
+}
+
+@media (max-width: 280px) {
   .row {
-    margin-left: 8rem;
+    margin-left: 3rem;
+    width: 29rem;
   }
 
   .cafe-preto,
@@ -700,26 +783,46 @@ section {
     height: 105vh;
     aspect-ratio: 4 / 1;
     margin-top: 14rem;
-    max-width: 170%;
+    width: 34rem;
+  }
+
+  .home-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 3rem;
+    font-size: 1.3em;
+    width: 25rem;
   }
 
   .title-about-us {
-    margin-left: 16rem;
+    margin-left: 9rem;
+  }
+
+  .title-clientes {
+    display: flex;
+    margin-left: 5.5rem;
   }
 
   .box-container {
     background-size: contain;
-    margin-left: 7rem;
+    margin-left: 4rem;
     width: 30rem;
   }
 
   .title-menu {
-    margin-left: 17rem;
+    display: flex;
+    margin-left: 9rem;
+  }
+
+  .title-menu span {
+    margin-left: 1rem;
   }
 
   .title-address {
     font-size: 3rem;
     margin-top: 5rem;
-    margin-left: 18rem;
+    margin-left: 12rem;
   }
 }
